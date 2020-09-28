@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(/images/bg-pattern-bottom-desktop.svg);
+  font-family: 'Spartan', sans-serif;
+  font-size: 15px;
+}
+
+/* HEADER */
+header {
+  color: hsl(300, 43%, 22%);
+  width: 80%;
+  margin: 0 auto;
+  font-weight: 800;
+  font-size: 1.5rem;
+  margin-top: 5rem;
+}
+
+header p {
+  color: hsl(303, 10%, 53%);
+  font-size: 0.8rem;
+  line-height: 2.5;
+  width: 50rem;
+  margin-left: 2rem;
+  display: block;
+}
+
+/* RATINGS */
+
+/* TESTIMONIALS */
+.section-testimonials {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-around;
+  margin: 3rem 8rem 20rem 7rem;
+  background-color: hsl(300, 43%, 22%);
+}
+
+h2,
+blockquote {
+  color: white
+}
+
+cite img {
+  border-radius: 50%;
+  flex;
+}
