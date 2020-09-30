@@ -62,38 +62,7 @@ header p {
 }
 
 /* TESTIMONIALS */
-.section-testimonials {
-  margin: 20px;
-}
 
-.testimonial {
-  background-color: hsl(300, 43%, 22%);
-  display: inline-block;
-  color: white;
-  border-radius: 10px;
-  width: 22rem;
-  margin: 1rem 1rem 1rem 3.2rem;
-  vertical-align: middle;
-}
-
-cite img {
-  border-radius: 50px;
-  height: 45px;
-  align-content: center;
-  margin: 20px;
-}
-
-.testimonial-1,
-.testimonial-2,
-.testimonial-3 {
-  padding: 10px;
-}
-
-.testimonial h4 {
-  font-size: 0.9rem;
-  padding: 5px;
-  color: hsl(333, 80%, 67%);
-}
 
 /* FOOTER */
 footer {
