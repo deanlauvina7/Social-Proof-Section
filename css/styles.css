@@ -5,31 +5,61 @@
 }
 
 body {
+  background-image: url(/images/bg-pattern-top-desktop.svg);
   background-image: url(/images/bg-pattern-bottom-desktop.svg);
   font-family: 'Spartan', sans-serif;
   font-size: 15px;
+  padding: 1rem 3rem;
 }
 
 /* HEADER */
 header {
+  display: inline-block;
   color: hsl(300, 43%, 22%);
-  width: 80%;
-  margin: 0 auto;
-  font-weight: 800;
+  margin: 7rem 5rem;
+  font-weight: 600;
   font-size: 1.5rem;
-  margin-top: 5rem;
 }
 
 header p {
   color: hsl(303, 10%, 53%);
-  font-size: 0.8rem;
-  line-height: 2.5;
-  width: 50rem;
-  margin-left: 2rem;
-  display: block;
+  font-size: 1rem;
+  margin-top: 1rem;
+  font-weight: 100;
 }
 
 /* RATINGS */
+.section-ratings {
+  margin-top: -22rem;
+}
+
+.rating {
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 5px;
+  width: 36%;
+  padding: 1.5rem 1rem 1rem;
+  margin: 1rem 40rem 0;
+}
+
+.section-ratings img {
+  float: left;
+  margin: 0 0 0 0.75rem;
+}
+
+.section-ratings p {
+  color: hsl(300, 43%, 22%);
+  font-weight: bolder;
+  margin: 0 0 0 12rem;
+}
+
+.rating-2 {
+  margin-left: 43rem;
+}
+
+.rating-3 {
+  margin-left: 46rem;
+  margin-bottom: 7rem;
+}
 
 /* TESTIMONIALS */
 .section-testimonials {
@@ -48,5 +78,4 @@ blockquote {
 
 cite img {
   border-radius: 50%;
-  flex;
 }
