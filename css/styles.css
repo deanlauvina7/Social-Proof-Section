@@ -11,8 +11,7 @@ body {
   background-image: url(/images/bg-pattern-bottom-desktop.svg);
   font-size: 15px;
   padding: 1rem 3rem;
-  height: 100%;
-  position: relative;
+
 }
 
 /* HEADER */
@@ -28,7 +27,7 @@ header p {
   color: hsl(303, 10%, 53%);
   font-size: 1rem;
   margin-top: 1rem;
-  font-weight: 100;
+  font-weight: 800;
 }
 
 /* RATINGS */
